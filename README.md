@@ -18,3 +18,15 @@ Execution apres la configuration du volume pour la methode 2 : docker compose
 Resultat :
 ```
 ![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/4.png?raw=true)
+```
+Deploiement dun war :
+```
+![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/5.png?raw=true)
+```
+suite :
+```
+![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/6.png?raw=true)
+```
+Resultat du deploiement :
+```
+![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/7.png?raw=true)
