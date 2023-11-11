@@ -7,11 +7,11 @@ Execution avant la configuration du volume pour la methode 2 : docker compose
 ```
 ![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/1.png?raw=true)
 ```
-Configuration du volume pour la methode 2 : docker compose
+Configuration du volume pour la methode 2 dans dockerDeskTop : docker compose
 ```
 ![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/2.png?raw=true)
 ```
-Execution avant la configuration du volume pour la methode 2 : docker compose
+Execution apres la configuration du volume pour la methode 2 : docker compose
 ```
 ![alt text](https://github.com/ngorseck/docker-tocat-server/blob/main/methode-docker-compose/3.png?raw=true)
 ```
