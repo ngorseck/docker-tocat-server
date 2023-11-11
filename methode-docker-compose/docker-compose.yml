@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  tomcat:
+    image: bitnami/tomcat:9.0
+    container_name: tomcat-server
+    ports:
+      - 8082:8080
+    environment:
+      - TOMCAT_USERNAME=seckngor
+      - TOMCAT_PASSWORD=passer
+    volumes:
+      - ./bitnami-data:/bitnami
+#Ici cest a nous de creer manuellement le volume dans le repertoir racine a cote du fichier docker-compose (bitnami-data a la racine) puis compose va juste monter (ref https://docs.docker.com/compose/compose-file/07-volumes/)
+volumes:
+  db-data:
+    external: true
+#Ici compose va automatiquement creer le volume
+    #volumes:
+    #  - bitnami-data:/bitnami
+#volumes:
+  #bitnami-data:
+    #driver: local
+
+#docker compose up -d

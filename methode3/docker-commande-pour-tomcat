@@ -1,0 +1,6 @@
+Lien de la documentation : https://hub.docker.com/r/bitnami/tomcat/
+
+docker run --name tomcat \
+  -e TOMCAT_USERNAME=my_user \
+  -e TOMCAT_PASSWORD=my_password \
+  bitnami/tomcat:latest
